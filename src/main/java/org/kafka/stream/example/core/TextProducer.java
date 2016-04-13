@@ -60,7 +60,7 @@ public class TextProducer {
             int start = rnd.nextInt(fileContent.size()-1);
             pushFileContent(fileContent.get(rnd.nextInt(fileContent.size())));
             try {
-                Thread.sleep(5000);
+                Thread.sleep(500);
             } catch (InterruptedException e) {}
         }
     }
